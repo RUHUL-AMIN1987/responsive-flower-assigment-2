@@ -19,9 +19,13 @@ body{
 }
 /* Logo and menu style */
 .header{
+    /* display: flex;
+    justify-content: space-between; */
+    margin-top: 50px;
+}
+.logo{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
 }
 nav ul{
     display: flex;
