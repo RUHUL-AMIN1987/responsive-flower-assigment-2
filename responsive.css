@@ -111,3 +111,48 @@ nav li a{
    font-size: 14px;
    font-weight: 500;
 }
+/* Flower Section */
+.flowers{
+    margin-top: 210px;
+}
+.flowers{
+    display: flex;
+}
+.store{
+    /* width: 540px; */
+    height: 700px;
+}
+.badge{
+    width: 50%;
+    height: 50%;
+    margin-top: -110px;
+    margin-left: -180px;
+}
+
+.image{
+    display: flex;
+}
+.love{
+    margin-left: 200px;
+}
+.love-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+.love-discription{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* Latest Deals */
+.latest-deals{
+    margin-top: 240px;
+    text-align: center;
+}
+.latest-deals h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+.latest{
+    color: rgba(233, 90, 8, 1);
+}
