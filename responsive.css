@@ -278,3 +278,14 @@ nav li a{
     color: rgba(0, 0, 0, 0.5);
     padding-left: 20px;
 }
+.footer{
+    height: 350px;
+    background-color: white;
+    margin: 50px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    width: ;
+}
