@@ -281,11 +281,24 @@ nav li a{
 .footer{
     height: 350px;
     background-color: white;
-    margin: 50px 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer-logo{
-    width: ;
+.footer p{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+div ul li{
+    list-style: none;
+    margin-bottom: 32px;
+}
+div ul li a{
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+    gap: 20px;
+}
+.footer-icon img{
+    margin-left: 24px;
+    margin-bottom: 200px;
 }
