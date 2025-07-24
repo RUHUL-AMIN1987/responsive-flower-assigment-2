@@ -36,9 +36,14 @@ nav li a{
      text-decoration: none;
      color: rgba(37, 36, 50, 1);
      font-size: 1.5rem;
+     font-weight: 700;
 }
 .color{
     color: rgba(37, 36, 50, 1);
+}
+.a{
+    color: rgba(137, 135, 161, 1);
+    font-weight: 500;
 }
 /* Hero Section Style */
 .hero{
@@ -116,6 +121,7 @@ nav li a{
    font-size: 16px;
    font-weight: 500;
    width: 100%;
+   cursor: pointer;
 }
 /* Flower Section */
 .flowers{
