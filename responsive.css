@@ -139,6 +139,11 @@ nav li a{
     height: 50%;
     margin-top: -110px;
     margin-left: -180px;
+    transition: 5s;
+}
+.badge:hover{
+    width: 100%;
+    cursor: pointer;
 }
 
 .image{
@@ -310,3 +315,4 @@ div ul li a{
     margin-bottom: 200px;
 }
  /* Responsive For Mobile Leout */
+
