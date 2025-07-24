@@ -315,4 +315,47 @@ div ul li a{
     margin-bottom: 200px;
 }
  /* Responsive For Mobile Leout */
-
+ @media screen and (max-width: 576px) { 
+    nav ul,  
+    .card-container, 
+    .flowers, 
+    .plan, 
+    .boom-plant, 
+    .email,
+    .sixtey, 
+    .footer{
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .logo .b, .a{
+        display: none;
+        text-align: center;
+        /* align-items: center;
+        justify-content: space-around; */
+    }
+    .logo img{
+        width: 25%;
+    }
+     .hero{
+        flex-direction: column-reverse;
+     }
+     .badge{
+        display: none;
+     }
+     .image, 
+     .latest-deals, 
+     .email, 
+     .footer{
+        margin-top: 30px;
+     }
+     .love{
+        margin-left: 10px;
+     }
+    .email-form{
+        width: 350px;
+    }
+    .boom-plant, .store{
+        width: 100%;
+    }
+ } 
