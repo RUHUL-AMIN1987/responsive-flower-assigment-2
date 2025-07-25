@@ -23,7 +23,7 @@
     justify-content: space-between; */
     margin-top: 50px;
 }
-.logo{
+.nav{
     display: flex;
     justify-content: space-between;
 }
@@ -316,7 +316,7 @@ div ul li a{
 }
  /* Responsive For Mobile Leout */
  @media screen and (max-width: 576px) { 
-    nav ul,  
+     
     .card-container, 
     .flowers, 
     .plan, 
@@ -328,14 +328,24 @@ div ul li a{
         max-width: 100%;
         margin: 0 auto;
     }
-    .logo .b, .a{
+    nav ul{
+        margin-top: -50px;
+    }
+    div .b, .a{
         display: none;
         text-align: center;
-        /* align-items: center;
-        justify-content: space-around; */
+        align-items: center;
+        justify-content: space-around;
     }
-    .logo img{
+    .nav{
+        flex-direction: column;
+        /* justify-content: space-between;
+        align-items: center; 
+        text-align: center; */
+    }
+    nav img{
         width: 25%;
+        justify-content: space-between;
     }
      .hero{
         flex-direction: column-reverse;
@@ -358,4 +368,15 @@ div ul li a{
     .boom-plant, .store{
         width: 100%;
     }
+    .footer{
+        height: 0;
+    }
+    div ul li{
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .footer-icon img{
+        margin-bottom: 20px;
+    }
+   
  } 
